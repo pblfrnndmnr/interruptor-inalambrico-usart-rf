@@ -1,0 +1,43 @@
+Category,Quantity,Reference,Value,Order Code
+Resistors,7,"R1,R3-R6,R9,R14",10k,M10K
+Resistors,2,"R2,R8",470,M10K
+Resistors,2,"R7,R16",2.2k,M10K
+Resistors,1,"R10",220k,M10K
+Resistors,1,"R11",100k,M10K
+Resistors,2,"R12,R13",220,M10K
+Resistors,1,"R15",39,M10K
+Resistors,1,"R17",1M,M10K
+Resistors,1,"R18",330,M10K
+Capacitors,6,"C1,C2,C8,C10-C12",100n,Maplin DT98G
+Capacitors,2,"C3,C5",47n,Maplin DT98G
+Capacitors,1,"C4",470n,Maplin DT98G
+Capacitors,1,"C6",10n,Maplin DT98G
+Capacitors,1,"C7",1u,Maplin VH46A
+Capacitors,1,"C9",2200u,Maplin UQ32K
+Integrated Circuits,1,"U1",TLP521,
+Integrated Circuits,1,"U2",MOC3031M,
+Integrated Circuits,1,"U3",BT136,
+Integrated Circuits,1,"U4",7805,
+Transistors,3,"Q1-Q3",BC548,
+Diodes,5,"D1,D4-D7",1N4007,
+Diodes,1,"D2",1N5231B,
+Diodes,1,"D3",1N4148,
+Diodes,1,"D8",DIODE-LED,
+Diodes,1,"D9",LED ENCENDIDO,
+Miscellaneous,2,"ESCLAVO,MAESTRO1",PIC16F628A,
+Miscellaneous,1,"FUSE",500mA,
+Miscellaneous,1,"J1",CONN-SIL6,
+Miscellaneous,1,"J2",RWS-433,
+Miscellaneous,1,"J3",LAVE LOCAL,
+Miscellaneous,1,"J4",LUZ,
+Miscellaneous,1,"J5",Antena,
+Miscellaneous,1,"J6",LLAVE,
+Miscellaneous,1,"J7",VCC,
+Miscellaneous,1,"J8",GND,
+Miscellaneous,2,"J9,J11",TBLOCK-I3,
+Miscellaneous,1,"J10",TBLOCK-I2,
+Miscellaneous,2,"JP1,JP2",JUMPER,
+Miscellaneous,1,"LLAVE1",,
+Miscellaneous,1,"SW1",Tecla,
+Miscellaneous,1,"TR1",TRSAT2P3S,
+Miscellaneous,1,"V1",VSINE,
