@@ -89,8 +89,7 @@ void main(void)
        
          RCSTAbits.SPEN=1;//habilito el puerto serie para transmitir los datos
          TransmisorON=1;
-         
-         //Espero a que se inicie correctamente el transmisor minimo 1.5ms (no verificado)
+                 //Espero a que se inicie correctamente el transmisor minimo 1.5ms (no verificado)
          __delay_ms(2);
            //Habilito la transmision de datos
          //Envio los datos codificados direccion y estado
