@@ -778,33 +778,33 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main_maestro.c: 91: PORTBbits.RB3=1;
 "91
 [e = . . _PORTBbits 0 3 -> -> 1 `i `uc ]
-[; ;main_maestro.c: 94: _delay((unsigned long)((2)*(20000000UL/4000.0)));
-"94
+[; ;main_maestro.c: 93: _delay((unsigned long)((2)*(20000000UL/4000.0)));
+"93
 [e ( __delay (1 -> * -> -> 2 `i `d / -> -> 20000000 `ul `d .4000.0 `ul ]
-[; ;main_maestro.c: 97: if (datos=='Y'){
-"97
+[; ;main_maestro.c: 96: if (datos=='Y'){
+"96
 [e $ ! == -> _datos `ui -> 89 `ui 58  ]
 {
-[; ;main_maestro.c: 98: printf("\n%s\r", enviaEncendido);
-"98
+[; ;main_maestro.c: 97: printf("\n%s\r", enviaEncendido);
+"97
 [e ( _printf , (. :s 1C -> &U _enviaEncendido `*Cuc ]
-"99
+"98
 }
-[; ;main_maestro.c: 99: }else if(datos=='N'){
+[; ;main_maestro.c: 98: }else if(datos=='N'){
 [e $U 59  ]
 [e :U 58 ]
 [e $ ! == -> _datos `ui -> 78 `ui 60  ]
 {
-[; ;main_maestro.c: 100: printf("\n%s\r", enviaApagado);
-"100
+[; ;main_maestro.c: 99: printf("\n%s\r", enviaApagado);
+"99
 [e ( _printf , (. :s 2C -> &U _enviaApagado `*Cuc ]
-"101
+"100
 }
 [e :U 60 ]
-"103
+"102
 [e :U 59 ]
-[; ;main_maestro.c: 101: }
-[; ;main_maestro.c: 103: while (!TRMT){}
+[; ;main_maestro.c: 100: }
+[; ;main_maestro.c: 102: while (!TRMT){}
 [e $U 61  ]
 [e :U 62 ]
 {
@@ -812,40 +812,40 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 61 ]
 [e $ ! _TRMT 62  ]
 [e :U 63 ]
-[; ;main_maestro.c: 104: PORTBbits.RB3=0;
-"104
+[; ;main_maestro.c: 103: PORTBbits.RB3=0;
+"103
 [e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
-[; ;main_maestro.c: 105: Bandera_boton_pulsado=0;
-"105
+[; ;main_maestro.c: 104: Bandera_boton_pulsado=0;
+"104
 [e = _Bandera_boton_pulsado -> -> 0 `i `uc ]
-[; ;main_maestro.c: 107: INTCONbits.INTF=0;
-"107
+[; ;main_maestro.c: 106: INTCONbits.INTF=0;
+"106
 [e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
-[; ;main_maestro.c: 110: INTCONbits.INTE=1;
-"110
+[; ;main_maestro.c: 109: INTCONbits.INTE=1;
+"109
 [e = . . _INTCONbits 0 4 -> -> 1 `i `uc ]
-"113
+"112
 }
 [e :U 57 ]
-[; ;main_maestro.c: 113: }
-[; ;main_maestro.c: 115: RCSTAbits.SPEN=0;
-"115
+[; ;main_maestro.c: 112: }
+[; ;main_maestro.c: 114: RCSTAbits.SPEN=0;
+"114
 [e = . . _RCSTAbits 0 7 -> -> 0 `i `uc ]
-[; ;main_maestro.c: 116: PORTBbits.RB2=0;
-"116
+[; ;main_maestro.c: 115: PORTBbits.RB2=0;
+"115
 [e = . . _PORTBbits 0 2 -> -> 0 `i `uc ]
-[; ;main_maestro.c: 120: asm("sleep");
-"120
+[; ;main_maestro.c: 119: asm("sleep");
+"119
 [; <" sleep ;# ">
-"121
+"120
 }
 [e :U 54 ]
 "82
 [e $U 55  ]
 [e :U 56 ]
-[; ;main_maestro.c: 121: }
-[; ;main_maestro.c: 123: }
-"123
+[; ;main_maestro.c: 120: }
+[; ;main_maestro.c: 122: }
+"122
 [e :UE 53 ]
 }
 [p f _printf 8650752 ]

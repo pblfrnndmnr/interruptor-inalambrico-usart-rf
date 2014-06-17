@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC PRO Macro Assembler V1.31 build 56723 
-                                                                                               Sat Jun  7 17:38:29 2014
+                                                                                               Mon Jun 16 23:41:05 2014
 
 Microchip Technology Omniscient Code Generator (PRO mode) build 56723
      1                           	processor	16F628A
@@ -673,7 +673,7 @@ Microchip Technology Omniscient Code Generator (PRO mode) build 56723
    667                           ;main_maestro.c: 91: PORTBbits.RB3=1;
    668  00D0  1586               	bsf	6,3	;volatile
    669                           
-   670                           ;main_maestro.c: 94: _delay((unsigned long)((2)*(20000000UL/4000.0)));
+   670                           ;main_maestro.c: 93: _delay((unsigned long)((2)*(20000000UL/4000.0)));
    671  00D1  300D               	movlw	13
    672  00D2  00AA               	movwf	??_main+1
    673  00D3  30FB               	movlw	251
@@ -685,7 +685,7 @@ Microchip Technology Omniscient Code Generator (PRO mode) build 56723
    679  00D8  28D5               	goto	u417
    680  00D9  28DA               	nop2
    681                           
-   682                           ;main_maestro.c: 97: if (datos=='Y'){
+   682                           ;main_maestro.c: 96: if (datos=='Y'){
    683  00DA  1283               	bcf	3,5	;RP0=0, select bank0
    684  00DB  1303               	bcf	3,6	;RP1=0, select bank0
    685  00DC  083F               	movf	_datos,w
@@ -693,18 +693,18 @@ Microchip Technology Omniscient Code Generator (PRO mode) build 56723
    687  00DE  1D03               	skipz
    688  00DF  28E2               	goto	l992
    689                           
-   690                           ;main_maestro.c: 98: printf("\n%s\r", enviaEncendido);
+   690                           ;main_maestro.c: 97: printf("\n%s\r", enviaEncendido);
    691  00E0  302B               	movlw	main@enviaEncendido& (0+255)
    692  00E1  28E7               	goto	L1
    693  00E2                     l992:	
-   694                           ;main_maestro.c: 99: }else if(datos=='N'){
+   694                           ;main_maestro.c: 98: }else if(datos=='N'){
    695                           
    696  00E2  083F               	movf	_datos,w
    697  00E3  3A4E               	xorlw	78
    698  00E4  1D03               	skipz
    699  00E5  28EA               	goto	l54
    700                           
-   701                           ;main_maestro.c: 100: printf("\n%s\r", enviaApagado);
+   701                           ;main_maestro.c: 99: printf("\n%s\r", enviaApagado);
    702  00E6  3030               	movlw	main@enviaApagado& (0+255)
    703  00E7                     L1:	
    704  00E7  00F9               	movwf	?_printf
@@ -715,25 +715,25 @@ Microchip Technology Omniscient Code Generator (PRO mode) build 56723
    709  00EB  1C98               	btfss	24,1	;volatile
    710  00EC  28EA               	goto	l54
    711                           
-   712                           ;main_maestro.c: 104: PORTBbits.RB3=0;
+   712                           ;main_maestro.c: 103: PORTBbits.RB3=0;
    713  00ED  1283               	bcf	3,5	;RP0=0, select bank0
    714  00EE  1186               	bcf	6,3	;volatile
    715                           
-   716                           ;main_maestro.c: 105: Bandera_boton_pulsado=0;
+   716                           ;main_maestro.c: 104: Bandera_boton_pulsado=0;
    717  00EF  01C0               	clrf	_Bandera_boton_pulsado
    718                           
-   719                           ;main_maestro.c: 107: INTCONbits.INTF=0;
+   719                           ;main_maestro.c: 106: INTCONbits.INTF=0;
    720  00F0  108B               	bcf	11,1	;volatile
    721                           
-   722                           ;main_maestro.c: 110: INTCONbits.INTE=1;
+   722                           ;main_maestro.c: 109: INTCONbits.INTE=1;
    723  00F1  160B               	bsf	11,4	;volatile
    724  00F2                     l1002:	
    725                           
-   726                           ;main_maestro.c: 113: }
-   727                           ;main_maestro.c: 115: RCSTAbits.SPEN=0;
+   726                           ;main_maestro.c: 112: }
+   727                           ;main_maestro.c: 114: RCSTAbits.SPEN=0;
    728  00F2  1398               	bcf	24,7	;volatile
    729                           
-   730                           ;main_maestro.c: 116: PORTBbits.RB2=0;
+   730                           ;main_maestro.c: 115: PORTBbits.RB2=0;
    731  00F3  1106               	bcf	6,2	;volatile
    732  00F4  0063               	sleep	;# 
    733  00F5  28C9               	goto	l984
@@ -1620,7 +1620,7 @@ EEDATA              80      0       0       0        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.31 build 56723 
-Symbol Table                                                                                   Sat Jun  7 17:38:29 2014
+Symbol Table                                                                                   Mon Jun 16 23:41:05 2014
 
                            pc 0002                   __CFG_CP$OFF 0000                            l54 00EA  
                           l78 01B5                            fsr 0004         _Bandera_boton_pulsado 0040  

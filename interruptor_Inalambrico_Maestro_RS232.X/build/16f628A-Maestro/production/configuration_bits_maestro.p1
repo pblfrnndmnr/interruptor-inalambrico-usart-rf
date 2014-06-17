@@ -563,19 +563,19 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;eeprom_routines.h: 43: extern void eecpymem(volatile unsigned char *to, __eeprom unsigned char *from, unsigned char size);
 [; ;eeprom_routines.h: 44: extern void memcpyee(__eeprom unsigned char *to, const unsigned char *from, unsigned char size);
 [; ;pic.h: 154: extern __nonreentrant void _delay(unsigned long);
-"13 configuration_bits_maestro.c
+"12 configuration_bits_maestro.c
 [p x FOSC=INTOSCIO ]
-"14
+"13
 [p x WDTE=OFF ]
-"15
+"14
 [p x PWRTE=ON ]
-"16
+"15
 [p x MCLRE=ON ]
-"17
+"16
 [p x BOREN=ON ]
-"18
+"17
 [p x LVP=OFF ]
-"19
+"18
 [p x CPD=OFF ]
-"20
+"19
 [p x CP=OFF ]

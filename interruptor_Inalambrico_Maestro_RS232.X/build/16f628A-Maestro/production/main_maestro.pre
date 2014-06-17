@@ -1059,7 +1059,6 @@ INTCONbits.INTE=0;
 RCSTAbits.SPEN=1;
 PORTBbits.RB3=1;
 
-
 _delay((unsigned long)((2)*(20000000UL/4000.0)));
 
 

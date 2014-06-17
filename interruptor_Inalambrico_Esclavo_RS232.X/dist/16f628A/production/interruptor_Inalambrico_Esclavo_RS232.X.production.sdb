@@ -105,13 +105,13 @@
 [v ___fltoee __fltoee `(d  1 e 4 0 ]
 "49 /opt/microchip/xc8/v1.31/sources/pic/fldiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"24 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/interrupts.c
+"24 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/interrupts.c
 [v _isr isr `II(v  1 e 0 0 ]
-"55 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/main.c
+"55 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/main.c
 [v _main main `(v  1 e 0 0 ]
-"18 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/system.c
+"18 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/system.c
 [v _ConfigureOscillator ConfigureOscillator `(v  1 e 0 0 ]
-"14 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/usart1.c
+"14 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/usart1.c
 [v _configura_USART configura_USART `(v  1 e 0 0 ]
 "64
 [v _putch putch `(v  1 e 0 0 ]
@@ -119,9 +119,9 @@
 [v _getch getch `(uc  1 e 1 0 ]
 "73
 [v _kbhit kbhit `(b  1 e 0 0 ]
-"22 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/user.c
+"22 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/user.c
 [v _InitApp InitApp `(v  1 e 0 0 ]
-"69 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/uso_crc_maestro.c
+"69 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/uso_crc_maestro.c
 [v _calcula_mensaje_crc calcula_mensaje_crc `(i  1 e 2 0 ]
 "104
 [v _CRC16 CRC16 `(l  1 e 4 0 ]
@@ -245,7 +245,7 @@
 [v _WR WR `VEb  1 e 0 @1249 ]
 "1538
 [v _WREN WREN `VEb  1 e 0 @1250 ]
-"8 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/user.h
+"8 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/user.h
 [v _cadenarecibida cadenarecibida `[6]uc  1 e 6 0 ]
 "9
 [v _recibi_datos recibi_datos `uc  1 e 1 0 ]
@@ -255,17 +255,17 @@
 [v _Bandera_estado_llave Bandera_estado_llave `uc  1 e 1 0 ]
 "16
 [v _pasaron_20ms pasaron_20ms `uc  1 e 1 0 ]
-"55 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/main.c
+"55 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/main.c
 [v _main main `(v  1 e 0 0 ]
 {
 "87
 } 0
-"14 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/usart1.c
+"14 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/usart1.c
 [v _configura_USART configura_USART `(v  1 e 0 0 ]
 {
 "60
 } 0
-"69 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/uso_crc_maestro.c
+"69 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/uso_crc_maestro.c
 [v _calcula_mensaje_crc calcula_mensaje_crc `(i  1 e 2 0 ]
 {
 [v calcula_mensaje_crc@packet_ptr packet_ptr `*.4uc  1 a 1 wreg ]
@@ -305,7 +305,7 @@
 [v strlen@s s `*.4DCCuc  1 a 1 3 ]
 "13
 } 0
-"104 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/uso_crc_maestro.c
+"104 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/uso_crc_maestro.c
 [v _CRC16 CRC16 `(l  1 e 4 0 ]
 {
 [v CRC16@value value `uc  1 a 1 wreg ]
@@ -322,24 +322,24 @@
 [v CRC16@value value `uc  1 a 1 12 ]
 "122
 } 0
-"22 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/user.c
+"22 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/user.c
 [v _InitApp InitApp `(v  1 e 0 0 ]
 {
 "70
 } 0
-"18 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/system.c
+"18 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/system.c
 [v _ConfigureOscillator ConfigureOscillator `(v  1 e 0 0 ]
 {
 "26
 } 0
-"24 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/interrupts.c
+"24 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/interrupts.c
 [v _isr isr `II(v  1 e 0 0 ]
 {
 "64
 [v isr@datosrecibidos datosrecibidos `VEuc  1 a 1 5 ]
 "132
 } 0
-"69 /home/fernando/MPLABXProjects/Interruptor_Inalambrico_RS232/interruptor_Inalambrico_Esclavo_RS232.X/usart1.c
+"69 /home/fernando/MPLABXProjects/interruptor-inalambrico-usart-rf/interruptor_Inalambrico_Esclavo_RS232.X/usart1.c
 [v _getch getch `(uc  1 e 1 0 ]
 {
 "71
