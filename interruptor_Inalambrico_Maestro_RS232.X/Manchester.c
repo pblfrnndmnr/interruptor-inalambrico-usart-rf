@@ -2,6 +2,7 @@
 #include <string.h>
 
 
+
  int  Manchester (char cadena_v) {
         // Devuelve 2 cuando hay señal positiva
         // Devuelve 0 cuando hay señal negativa

@@ -44,10 +44,10 @@ extern char * strichr(const char *, int);
 extern char * strrchr(const char *, int);
 extern char * strrichr(const char *, int);
 
-# 5 "Manchester.c"
+# 6 "Manchester.c"
 int Manchester (char cadena_v) {
 
-# 11
+# 12
 int temporal=0;
 
 for (int i=0; i <=7; i++) {

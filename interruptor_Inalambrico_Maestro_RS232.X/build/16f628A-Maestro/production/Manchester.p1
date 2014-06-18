@@ -30,19 +30,19 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;string.h: 57: extern char * strichr(const char *, int);
 [; ;string.h: 58: extern char * strrchr(const char *, int);
 [; ;string.h: 59: extern char * strrichr(const char *, int);
-"5 Manchester.c
+"6 Manchester.c
 [v _Manchester `(i ~T0 @X0 1 ef1`uc ]
 {
-[; ;Manchester.c: 5: int Manchester (char cadena_v) {
+[; ;Manchester.c: 6: int Manchester (char cadena_v) {
 [e :U _Manchester ]
 [v _cadena_v `uc ~T0 @X0 1 r1 ]
 [f ]
-"11
+"12
 [v _temporal `i ~T0 @X0 1 a ]
-[; ;Manchester.c: 11: int temporal=0;
+[; ;Manchester.c: 12: int temporal=0;
 [e = _temporal -> 0 `i ]
-[; ;Manchester.c: 13: for (int i=0; i <=7; i++) {
-"13
+[; ;Manchester.c: 14: for (int i=0; i <=7; i++) {
+"14
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
@@ -50,51 +50,51 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e $U 3  ]
 [e :U 2 ]
 {
-[; ;Manchester.c: 14: if ((cadena_v&(0x01<<i)) == 0) {
-"14
+[; ;Manchester.c: 15: if ((cadena_v&(0x01<<i)) == 0) {
+"15
 [e $ ! == & -> _cadena_v `i << -> 1 `i _i -> 0 `i 5  ]
 {
-[; ;Manchester.c: 16: temporal = temporal+ 0b10;
-"16
+[; ;Manchester.c: 17: temporal = temporal+ 0b10;
+"17
 [e = _temporal + _temporal -> 2 `i ]
-"18
-}
-[; ;Manchester.c: 18: }
-[e $U 6  ]
 "19
+}
+[; ;Manchester.c: 19: }
+[e $U 6  ]
+"20
 [e :U 5 ]
-[; ;Manchester.c: 19: else {
+[; ;Manchester.c: 20: else {
 {
-[; ;Manchester.c: 21: temporal = temporal+ 0b01;
-"21
+[; ;Manchester.c: 22: temporal = temporal+ 0b01;
+"22
 [e = _temporal + _temporal -> 1 `i ]
-"24
+"25
 }
 [e :U 6 ]
-[; ;Manchester.c: 24: }
-[; ;Manchester.c: 25: if (i<=6){
-"25
+[; ;Manchester.c: 25: }
+[; ;Manchester.c: 26: if (i<=6){
+"26
 [e $ ! <= _i -> 6 `i 7  ]
 {
-[; ;Manchester.c: 26: temporal=temporal<<2;
-"26
-[e = _temporal << _temporal -> 2 `i ]
+[; ;Manchester.c: 27: temporal=temporal<<2;
 "27
+[e = _temporal << _temporal -> 2 `i ]
+"28
 }
 [e :U 7 ]
 }
-"13
+"14
 [e ++ _i -> 1 `i ]
 [e $ <= _i -> 7 `i 2  ]
 [e :U 3 ]
-"27
+"28
 }
-[; ;Manchester.c: 27: }}
-[; ;Manchester.c: 29: return temporal;
-"29
+[; ;Manchester.c: 28: }}
+[; ;Manchester.c: 30: return temporal;
+"30
 [e ) _temporal ]
 [e $UE 1  ]
-[; ;Manchester.c: 30: }
-"30
+[; ;Manchester.c: 31: }
+"31
 [e :UE 1 ]
 }
