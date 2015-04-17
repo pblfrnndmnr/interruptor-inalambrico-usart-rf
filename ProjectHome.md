@@ -1,0 +1,1 @@
+comando de una lampara a través de RF
